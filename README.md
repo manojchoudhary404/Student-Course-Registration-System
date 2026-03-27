@@ -70,7 +70,7 @@ Student-Course-Registration-System/
 3. Compile the Java files:
 
    ```
-   javac -d . src/com/student/app/StudentApp.java
+   javac com/student/model/*.java com/student/service/*.java com/student/app/*.java com/student/exception/*.java
    ```
 
 4. Run the application:
